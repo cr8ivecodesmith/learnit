@@ -1,0 +1,29 @@
+site_name: LearnIt
+site_description: Project documentation for LearnIt
+
+nav:
+  - Home: index.md
+
+# Material theme
+theme:
+  name: material
+
+# Docs live in the default `docs/` directory.
+docs_dir: docs
+
+# Plugins
+plugins:
+  - search
+  - autorefs
+  - mkdocstrings
+  - git-revision-date-localized:
+      type: date
+
+# Markdown extensions
+markdown_extensions:
+  - admonition
+  - toc:
+      permalink: true
+  - pymdownx.highlight
+  - pymdownx.superfences
+  - pymdownx.details
